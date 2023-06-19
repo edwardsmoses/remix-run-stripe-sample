@@ -1,7 +1,6 @@
 # Welcome to Remix
 
 - [Article](https://edwardsmoses.com/guide-to-integrating-stripe-with-remix)
-- [Remix Docs](<https://remix.run/do>
 
 ## Development
 
