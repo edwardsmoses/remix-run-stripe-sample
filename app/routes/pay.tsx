@@ -10,6 +10,8 @@ export async function loader() {
 
   const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
+  console.log('we are here in the stripe loader');
+
   const paymentIntent = await stripe.paymentIntents.create({
     amount: 2000,
     currency: "usd",
